@@ -1,0 +1,834 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>The Experiment Factory: Survey</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>Welcome to this survey. Press <strong>Next</strong> to begin.</h3><br><br><br><br></div>
+<div class="step">
+<h3>The following questions ask whether different events have happened to you in the last 10 years. Please indicate yes or no for each. </h3><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_2_options" class="likert">Rented a movie.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_2_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_2_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_2_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Rented a movie.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_2_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_2_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_2_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Rented a movie.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_3_options" class="likert">Returned a movie you rented without having watched it at all.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_3_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_3_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_3_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Returned a movie you rented without having watched it at all.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_3_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_3_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_3_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Returned a movie you rented without having watched it at all.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_4_options" class="likert">Bought new clothes or shoes.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_4_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_4_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_4_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Bought new clothes or shoes.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_4_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_4_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_4_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Bought new clothes or shoes.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_5_options" class="likert">Bought new clothes or shoes you never wore.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_5_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_5_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_5_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Bought new clothes or shoes you never wore.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_5_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_5_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_5_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Bought new clothes or shoes you never wore.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_6_options" class="likert">Gone shopping for food or groceries.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_6_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_6_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_6_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Gone shopping for food or groceries.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_6_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_6_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_6_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Gone shopping for food or groceries.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_7_options" class="likert">Threw out food or groceries you had bought, because they went bad.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_7_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_7_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_7_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Threw out food or groceries you had bought, because they went bad.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_7_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_7_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_7_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Threw out food or groceries you had bought, because they went bad.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_8_options" class="likert">Done your own laundry.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_8_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_8_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_8_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Done your own laundry.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_8_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_8_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_8_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Done your own laundry.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_9_options" class="likert">Ruined your clothes because you didn't follow the laundry instructions on the label.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_9_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_9_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_9_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Ruined your clothes because you didn't follow the laundry instructions on the label.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_9_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_9_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_9_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Ruined your clothes because you didn't follow the laundry instructions on the label.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_10_options" class="likert">Been enrolled in any kind of school.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_10_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_10_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_10_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been enrolled in any kind of school.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_10_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_10_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_10_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been enrolled in any kind of school.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_11_options" class="likert">Been suspended from school for at least one day for any reason.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_11_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_11_0" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_11_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been suspended from school for at least one day for any reason.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_11_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_11_1" class="mdl-radio__button required page1" name="decisions-outcome-inventory-survey_11_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been suspended from school for at least one day for any reason.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_12_options" class="likert">Had any kind of job.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_12_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_12_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_12_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had any kind of job.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_12_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_12_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_12_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had any kind of job.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_13_options" class="likert">Quit a job after a week.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_13_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_13_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_13_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Quit a job after a week.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_13_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_13_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_13_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Quit a job after a week.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_14_options" class="likert">Had a drivers license.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_14_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_14_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_14_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had a drivers license.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_14_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_14_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_14_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had a drivers license.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_15_options" class="likert">Had your driver's license taken away from you by the police.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_15_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_15_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_15_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had your driver's license taken away from you by the police.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_15_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_15_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_15_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had your driver's license taken away from you by the police.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_16_options" class="likert">Driven a car.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_16_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_16_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_16_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Driven a car.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_16_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_16_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_16_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Driven a car.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_17_options" class="likert">Been accused of causing a car accident while driving.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_17_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_17_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_17_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been accused of causing a car accident while driving.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_17_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_17_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_17_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been accused of causing a car accident while driving.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_18_options" class="likert">Gotten more than 5 parking tickets.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_18_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_18_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_18_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Gotten more than 5 parking tickets.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_18_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_18_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_18_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Gotten more than 5 parking tickets.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_19_options" class="likert">Gotten more than 5 speeding tickets.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_19_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_19_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_19_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Gotten more than 5 speeding tickets.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_19_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_19_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_19_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Gotten more than 5 speeding tickets.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_20_options" class="likert">Gotten lost or gone the wrong way for more than 10 minutes while driving.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_20_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_20_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_20_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Gotten lost or gone the wrong way for more than 10 minutes while driving.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_20_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_20_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_20_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Gotten lost or gone the wrong way for more than 10 minutes while driving.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_21_options" class="likert">Locked your keys in the car.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_21_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_21_0" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_21_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Locked your keys in the car.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_21_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_21_1" class="mdl-radio__button required page2" name="decisions-outcome-inventory-survey_21_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Locked your keys in the car.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_22_options" class="likert">Bought any kind of car.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_22_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_22_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_22_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Bought any kind of car.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_22_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_22_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_22_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Bought any kind of car.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_23_options" class="likert">Had to spend at least $500 to fix a car you had owned for less than half a year.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_23_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_23_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_23_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had to spend at least $500 to fix a car you had owned for less than half a year.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_23_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_23_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_23_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had to spend at least $500 to fix a car you had owned for less than half a year.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_24_options" class="likert">Taken a trip by airplane.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_24_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_24_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_24_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Taken a trip by airplane.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_24_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_24_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_24_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Taken a trip by airplane.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_25_options" class="likert">Missed a flight.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_25_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_25_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_25_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Missed a flight.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_25_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_25_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_25_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Missed a flight.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_26_options" class="likert">Taken the train or the bus.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_26_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_26_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_26_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Taken the train or the bus.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_26_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_26_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_26_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Taken the train or the bus.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_27_options" class="likert">Taken the wrong train or bus.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_27_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_27_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_27_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Taken the wrong train or bus.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_27_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_27_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_27_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Taken the wrong train or bus.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_28_options" class="likert">Had any form of ID (drivers license, passport, birth certificate).</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_28_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_28_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_28_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had any form of ID (drivers license, passport, birth certificate).">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_28_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_28_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_28_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had any form of ID (drivers license, passport, birth certificate).">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_29_options" class="likert">Had your ID replaced because you lost it.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_29_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_29_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_29_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had your ID replaced because you lost it.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_29_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_29_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_29_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had your ID replaced because you lost it.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_30_options" class="likert">Lived in a rented apartment or other rental property.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_30_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_30_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_30_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Lived in a rented apartment or other rental property.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_30_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_30_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_30_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Lived in a rented apartment or other rental property.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_31_options" class="likert">Been kicked out of an apartment or rental property before the lease ran out.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_31_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_31_0" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_31_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been kicked out of an apartment or rental property before the lease ran out.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_31_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_31_1" class="mdl-radio__button required page3" name="decisions-outcome-inventory-survey_31_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been kicked out of an apartment or rental property before the lease ran out.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_32_options" class="likert">Carried a key to your home.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_32_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_32_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_32_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Carried a key to your home.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_32_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_32_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_32_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Carried a key to your home.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_33_options" class="likert">Had the key to your home replaced because you lost it.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_33_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_33_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_33_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had the key to your home replaced because you lost it.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_33_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_33_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_33_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had the key to your home replaced because you lost it.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_34_options" class="likert">Locked yourself out of your home.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_34_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_34_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_34_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Locked yourself out of your home.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_34_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_34_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_34_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Locked yourself out of your home.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_35_options" class="likert">Been responsible for electricity, cable, gas or water payments.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_35_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_35_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_35_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been responsible for electricity, cable, gas or water payments.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_35_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_35_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_35_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been responsible for electricity, cable, gas or water payments.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_36_options" class="likert">Had your electricity, cable, gas or water shut off because you didn't pay on time.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_36_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_36_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_36_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had your electricity, cable, gas or water shut off because you didn't pay on time.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_36_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_36_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_36_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had your electricity, cable, gas or water shut off because you didn't pay on time.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_37_options" class="likert">Been responsible for a mortgage or loan.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_37_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_37_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_37_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been responsible for a mortgage or loan.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_37_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_37_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_37_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been responsible for a mortgage or loan.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_38_options" class="likert">Had a mortgage or loan foreclosed.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_38_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_38_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_38_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had a mortgage or loan foreclosed.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_38_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_38_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_38_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had a mortgage or loan foreclosed.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_39_options" class="likert">Been responsible for rent or mortgage payments.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_39_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_39_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_39_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been responsible for rent or mortgage payments.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_39_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_39_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_39_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been responsible for rent or mortgage payments.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_40_options" class="likert">Paid a rent or mortgage payment at least 2 weeks too late In the last 10 years, have you ever</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_40_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_40_0" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_40_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Paid a rent or mortgage payment at least 2 weeks too late In the last 10 years, have you ever">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_40_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_40_1" class="mdl-radio__button required page4" name="decisions-outcome-inventory-survey_40_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Paid a rent or mortgage payment at least 2 weeks too late In the last 10 years, have you ever">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_41_options" class="likert">Used checks.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_41_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_41_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_41_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Used checks.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_41_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_41_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_41_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Used checks.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_42_options" class="likert">Had a check bounce.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_42_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_42_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_42_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had a check bounce.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_42_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_42_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_42_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had a check bounce.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_43_options" class="likert">Had a credit card.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_43_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_43_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_43_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had a credit card.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_43_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_43_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_43_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had a credit card.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_44_options" class="likert">Had more than $5000 in credit card debt.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_44_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_44_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_44_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had more than $5000 in credit card debt.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_44_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_44_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_44_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had more than $5000 in credit card debt.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_45_options" class="likert">Invested in the stock market.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_45_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_45_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_45_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Invested in the stock market.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_45_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_45_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_45_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Invested in the stock market.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_46_options" class="likert">Lost more than $1000 on a stock-market investment.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_46_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_46_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_46_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Lost more than $1000 on a stock-market investment.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_46_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_46_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_46_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Lost more than $1000 on a stock-market investment.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_47_options" class="likert">Been to a bar, restaurant, or hotel.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_47_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_47_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_47_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been to a bar, restaurant, or hotel.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_47_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_47_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_47_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been to a bar, restaurant, or hotel.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_48_options" class="likert">Been kicked out of a bar, restaurant, or hotel by someone who works there.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_48_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_48_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_48_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been kicked out of a bar, restaurant, or hotel by someone who works there.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_48_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_48_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_48_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been kicked out of a bar, restaurant, or hotel by someone who works there.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_49_options" class="likert">Loaned more than $50 to someone.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_49_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_49_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_49_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Loaned more than $50 to someone.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_49_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_49_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_49_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Loaned more than $50 to someone.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_50_options" class="likert">Loaned more than $50 to someone and never got it back.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_50_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_50_0" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_50_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Loaned more than $50 to someone and never got it back.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_50_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_50_1" class="mdl-radio__button required page5" name="decisions-outcome-inventory-survey_50_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Loaned more than $50 to someone and never got it back.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_51_options" class="likert">Had a romantic relationship that lasted for at least 1 year.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_51_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_51_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_51_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had a romantic relationship that lasted for at least 1 year.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_51_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_51_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_51_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had a romantic relationship that lasted for at least 1 year.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_52_options" class="likert">Cheated on your romantic partner of 1 year by having sex with someone else.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_52_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_52_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_52_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Cheated on your romantic partner of 1 year by having sex with someone else.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_52_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_52_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_52_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Cheated on your romantic partner of 1 year by having sex with someone else.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_53_options" class="likert">Been married.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_53_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_53_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_53_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been married.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_53_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_53_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_53_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been married.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_54_options" class="likert">Been divorced.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_54_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_54_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_54_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been divorced.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_54_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_54_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_54_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been divorced.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_55_options" class="likert">Had sex.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_55_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_55_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_55_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had sex.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_55_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_55_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_55_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had sex.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_56_options" class="likert">Been diagnosed with an STD.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_56_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_56_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_56_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been diagnosed with an STD.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_56_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_56_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_56_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been diagnosed with an STD.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_57_options" class="likert">Had an unplanned pregnancy (or got someone pregnant, unplanned).</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_57_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_57_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_57_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had an unplanned pregnancy (or got someone pregnant, unplanned).">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_57_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_57_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_57_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had an unplanned pregnancy (or got someone pregnant, unplanned).">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_58_options" class="likert">Had sex with a condom.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_58_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_58_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_58_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had sex with a condom.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_58_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_58_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_58_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had sex with a condom.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_59_options" class="likert">Had a condom break, tear, or slip off.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_59_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_59_0" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_59_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had a condom break, tear, or slip off.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_59_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_59_1" class="mdl-radio__button required page6" name="decisions-outcome-inventory-survey_59_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had a condom break, tear, or slip off.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="decisions-outcome-inventory-survey_60_options" class="likert">Had an alcoholic drink.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_60_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_60_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_60_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Had an alcoholic drink.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_60_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_60_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_60_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Had an alcoholic drink.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_61_options" class="likert">Consumed so much alcohol you vomited.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_61_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_61_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_61_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Consumed so much alcohol you vomited.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_61_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_61_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_61_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Consumed so much alcohol you vomited.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_62_options" class="likert">Received a DUI for drunk driving.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_62_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_62_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_62_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Received a DUI for drunk driving.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_62_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_62_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_62_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Received a DUI for drunk driving.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_63_options" class="likert">Been out in the sun.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_63_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_63_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_63_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been out in the sun.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_63_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_63_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_63_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been out in the sun.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_64_options" class="likert">Got blisters from sun burn.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_64_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_64_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_64_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Got blisters from sun burn.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_64_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_64_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_64_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Got blisters from sun burn.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_65_options" class="likert">Been in a jail cell overnight for any reason.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_65_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_65_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_65_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been in a jail cell overnight for any reason.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_65_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_65_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_65_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been in a jail cell overnight for any reason.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_66_options" class="likert">Been in a public fight or screaming argument.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_66_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_66_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_66_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been in a public fight or screaming argument.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_66_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_66_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_66_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been in a public fight or screaming argument.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_67_options" class="likert">Declared bankruptcy.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_67_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_67_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_67_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Declared bankruptcy.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_67_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_67_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_67_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Declared bankruptcy.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_68_options" class="likert">Forgotten a birthday of someone close to you and did not realize until the next day or later.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_68_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_68_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_68_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Forgotten a birthday of someone close to you and did not realize until the next day or later.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_68_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_68_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_68_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Forgotten a birthday of someone close to you and did not realize until the next day or later.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_69_options" class="likert">Been diagnosed with type 2 diabetes.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_69_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_69_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_69_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Been diagnosed with type 2 diabetes.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_69_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_69_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_69_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Been diagnosed with type 2 diabetes.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br>
+<p id="decisions-outcome-inventory-survey_70_options" class="likert">Broke a bone because you fell, slipped, or misstepped.</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_70_0">
+<input type="radio" id="option-decisions-outcome-inventory-survey_70_0" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_70_options" value="1" meta-options="Yes: 1|No: 2" meta-text="Broke a bone because you fell, slipped, or misstepped.">
+<span class="mdl-radio__label">Yes: 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-decisions-outcome-inventory-survey_70_1">
+<input type="radio" id="option-decisions-outcome-inventory-survey_70_1" class="mdl-radio__button required page7" name="decisions-outcome-inventory-survey_70_options" value="2" meta-options="Yes: 1|No: 2" meta-text="Broke a bone because you fell, slipped, or misstepped.">
+<span class="mdl-radio__label">No: 2</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>Congratulations for completing this survey! Press <strong>finish</strong> to continue.</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" 
+                    name="backward" 
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">Previous</button></li>
+	<li><button type="button" 
+                    name="forward" 
+                    class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Next</button></li>
+        <li><button type="submit" 
+                    name="process" 
+                    class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Finish</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("Please answer all required questions in red.");
+                }
+            }
+
+             if ( state.stepIndex === 1 ) {
+ if (($.unique($(`.page1.required[type=number],.page1.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page1.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page1.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 2 ) {
+ if (($.unique($(`.page2.required[type=number],.page2.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page2.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page2.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 4 ) {
+ if (($.unique($(`.page4.required[type=number],.page4.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page4.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page4.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 5 ) {
+ if (($.unique($(`.page5.required[type=number],.page5.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page5.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page5.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 6 ) {
+ if (($.unique($(`.page6.required[type=number],.page6.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page6.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page6.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 7 ) {
+ if (($.unique($(`.page7.required[type=number],.page7.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page7.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page7.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'decisions-outcome-inventory-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>
